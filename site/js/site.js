@@ -2,10 +2,13 @@
 //teamnode init is fired first
 
 $( document ).ready(function() {
+	
+	/*
 	if(window.location.pathname != "/" && window.location.pathname != "/dashboard" && getQueryVariable("teamid") == null)
 	{
 		window.location = window.location.protocol + "//" + window.location.host;
-	}	
+	}
+    */	
 	
 	$('.header').html(header());
 	$('.footer').html(footer());
